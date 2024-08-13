@@ -1,0 +1,1308 @@
+
+> my-needle-engine-project@1.0.0 build:production
+> vite build -- --production
+
+Needle Engine Version: 3.47.2-beta.3 Unity 2022.3.41f1, Needle Engine Integration @3.47.2-pre
+[needle-dependencies] Adding three-mesh-bvh to the optimizeDeps.exclude array.
+WARN: License key is missing.
+[36mvite v4.3.9 [32mbuilding for production...[36m[39m
+[needle-copy-files] - Copy engine include to C:\Users\BENJHI\3d Needle Engine\Needle\newProject/include
+Needle Engine version: 3.47.2-beta.3
+
+Mixed async and defer script modules in C:/Users/BENJHI/3d Needle Engine/Needle/newProject/index.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+transforming...
+WARN: [needle-buildpipeline] @needle-tools/gltf-build-pipeline not found in package - using latest version
+[32m✓[39m 479 modules transformed.
+Generated an empty chunk: "register_types".
+[needle-buildpipeline] Waiting for output directory to be created...
+rendering chunks...
+computing gzip size...
+[needle-buildpipeline] 0 file(s) to process
+[needle-buildpipeline] Running command "npx --yes @needle-tools/gltf-build-pipeline@latest transform "C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets"
+[2mdist/[22m[32mindex.html                                     [39m[1m[2m    1.43 kB[22m[1m[22m[2m │ gzip:     0.64 kB[22m
+[2mdist/[22m[32massets/favicon-8d99ceea.ico                    [39m[1m[2m   15.09 kB[22m[1m[22m
+[2mdist/[22m[32massets/generateMeshBVH.worker-95425733.js      [39m[1m[2m  118.52 kB[22m[1m[22m
+[2mdist/[22m[35massets/index-7f6e353c.css                      [39m[1m[2m    0.13 kB[22m[1m[22m[2m │ gzip:     0.12 kB[22m
+[2mdist/[22m[36massets/register_types-4ed993c7.js              [39m[1m[2m    0.00 kB[22m[1m[22m[2m │ gzip:     0.02 kB[22m
+[2mdist/[22m[36massets/GenerateMeshBVHWorker-405a553d.js       [39m[1m[2m    2.05 kB[22m[1m[22m[2m │ gzip:     0.93 kB[22m
+[2mdist/[22m[36massets/index-b07cca26.js                       [39m[1m[2m    2.21 kB[22m[1m[22m[2m │ gzip:     1.12 kB[22m
+[2mdist/[22m[36massets/GLTFLoaderAnimationPointer-fd4f82f3.js  [39m[1m[2m    8.15 kB[22m[1m[22m[2m │ gzip:     2.75 kB[22m
+[2mdist/[22m[36massets/index-d7be2e3b.js                       [39m[1m[2m   10.38 kB[22m[1m[22m[2m │ gzip:     2.44 kB[22m
+[2mdist/[22m[36massets/needle-asap-a1004e43.js                 [39m[1m[2m   29.35 kB[22m[1m[22m[2m │ gzip:     8.44 kB[22m
+[2mdist/[22m[36massets/index-8751debf.js                       [39m[1m[2m   31.15 kB[22m[1m[22m[2m │ gzip:    10.26 kB[22m
+[2mdist/[22m[36massets/MeshBVH-4bc2ec15.js                     [39m[1m[2m   40.75 kB[22m[1m[22m[2m │ gzip:    13.45 kB[22m
+[2mdist/[22m[36massets/three.module-ca510e1b.js                [39m[1m[33m  676.95 kB[39m[22m[2m │ gzip:   175.45 kB[22m
+[2mdist/[22m[36massets/needle-engine-232849f6.js               [39m[1m[33m4,327.71 kB[39m[22m[2m │ gzip: 1,455.89 kB[22m
+[33m
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[needle-copy-files] - Copy engine include to C:\Users\BENJHI\3d Needle Engine\Needle\newProject/include
+[needle-copy-files] - Copy assets to dist/assets
+[needle-copy-files] - Copy include to dist/include
+[needle-buildpipeline] Waiting for postprocessing to finish...
+[32m✓ built in 15.05s[39m
+[needle-buildpipeline] Waiting for postprocessing to finish...
+
+✨ [vite-plugin-compression]:algorithm=gzip - compressed file successfully: 
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/GLTFLoaderAnimationPointer-fd4f82f3.js.gz       7.96kb / gzip: 2.69kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/GenerateMeshBVHWorker-405a553d.js.gz            2.00kb / gzip: 0.91kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/index-b07cca26.js.gz                            2.17kb / gzip: 1.10kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/index-d7be2e3b.js.gz                            10.14kb / gzip: 2.38kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/index-8751debf.js.gz                            30.42kb / gzip: 10.02kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/needle-asap-a1004e43.js.gz                      28.66kb / gzip: 8.23kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/include/three/DragControls.js.gz                       6.25kb / gzip: 1.24kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/MeshBVH-4bc2ec15.js.gz                          39.79kb / gzip: 13.12kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/include/three/EXT_mesh_gpu_instancing_exporter.js.gz   1.51kb / gzip: 0.65kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/include/draco/draco_wasm_wrapper.js.gz                 57.39kb / gzip: 11.55kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/index.html.gz                                          1.40kb / gzip: 0.63kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/include/needle/arial-msdf.json.gz                      32.91kb / gzip: 2.48kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/include/ktx2/basis_transcoder.js.gz                    60.90kb / gzip: 15.46kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/generateMeshBVH.worker-95425733.js.gz           115.74kb / gzip: 33.64kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/three.module-ca510e1b.js.gz                     661.08kb / gzip: 170.85kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/include/draco/draco_decoder.js.gz                      703.30kb / gzip: 143.80kb
+dist/C:/Users/BENJHI/3d Needle Engine/Needle/newProject/assets/needle-engine-232849f6.js.gz                    4226.39kb / gzip: 1419.90kb
+
+
+(node:3532) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+info: Transforming glTF file: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets
+info: No "gltf" config found in needle.config.json. Using default config.
+info: No config found. Using default config.
+info: → Transform C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/DefaultAvatar.glb
+[NEEDLE_progressive] Skipping, unsupported texture type "image/exr at 0".
+
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/DefaultAvatar.glb
+WARN: Could not validate image type for "image/exr"
+
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/DefaultAvatar.glb
+info: ← Compressing done in 0.1 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): DefaultAvatar.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/DefaultAvatar.glb
+info: → Transform C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/prueba.glb
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 512x512 (from 1024x1024)
+
+> Resize texture to 256x256 (from 1024x1024)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+> Resize texture to 2048x2048 (from 4096x4096)
+
+> Resize texture to 1024x1024 (from 4096x4096)
+
+> Resize texture to 512x512 (from 4096x4096)
+
+> Resize texture to 256x256 (from 4096x4096)
+
+[NEEDLE_progressive] Skipping, unsupported texture type "image/exr at 11".
+
+info: → Compressing 0.3 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: ← Compressing done in 0.1 sec, 0.3 MB → 0.1 MB (GPU: 0.7 MB textures): image_0_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_1_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: ← Compressing done in 0.1 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_2_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_75efdf77-7dea-5db8-a4cc-29f3e3533cc3.glb
+info: → Compressing 0.2 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: ← Compressing done in 0.0 sec, 0.2 MB → 0.0 MB (GPU: 1.3 MB textures): image_0_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.0 MB (GPU: 0.3 MB textures): image_1_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.1 MB textures): image_2_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_3e4e652e-e6b4-5fd9-b390-6515099668fc.glb
+info: → Compressing 3.2 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ← Compressing done in 0.1 sec, 3.2 MB → 0.5 MB (GPU: 10.7 MB textures): image_0_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: → Compressing 0.2 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ← Compressing done in 0.0 sec, 0.2 MB → 0.2 MB (GPU: 2.7 MB textures): image_1_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_21e8831f-7653-5f8a-97ce-47247dbfcd52.glb
+info: → Compressing 0.8 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ← Compressing done in 0.0 sec, 0.8 MB → 0.1 MB (GPU: 10.7 MB textures): image_0_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 2.7 MB textures): image_1_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.7 MB textures): image_2_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_0775cb77-0ac1-5e7f-b82b-2816d83e54ba.glb
+info: → Compressing 1.9 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ← Compressing done in 0.0 sec, 1.9 MB → 0.4 MB (GPU: 10.7 MB textures): image_0_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 2.7 MB textures): image_1_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ← Compressing done in 0.1 sec, 0.0 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_b1387db9-2ed9-5c94-9d9a-cbe2be94a357.glb
+info: → Compressing 4.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ← Compressing done in 0.1 sec, 4.1 MB → 0.9 MB (GPU: 10.7 MB textures): image_0_36e6be80-ba5d-5132-a286-9cd730915f62.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: → Compressing 0.4 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ← Compressing done in 0.0 sec, 0.4 MB → 0.4 MB (GPU: 2.7 MB textures): image_1_36e6be80-ba5d-5132-a286-9cd730915f62.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_36e6be80-ba5d-5132-a286-9cd730915f62.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 0.2 MB textures): image_3_36e6be80-ba5d-5132-a286-9cd730915f62.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_36e6be80-ba5d-5132-a286-9cd730915f62.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_36e6be80-ba5d-5132-a286-9cd730915f62.glb
+info: → Compressing 5.3 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ← Compressing done in 0.1 sec, 5.3 MB → 1.0 MB (GPU: 10.7 MB textures): image_0_3468f611-1243-57cb-81c2-c23f05c01e83.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: → Compressing 0.5 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ← Compressing done in 0.1 sec, 0.5 MB → 0.4 MB (GPU: 2.7 MB textures): image_1_3468f611-1243-57cb-81c2-c23f05c01e83.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: → Compressing 0.2 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ← Compressing done in 0.1 sec, 0.2 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_3468f611-1243-57cb-81c2-c23f05c01e83.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ← Compressing done in 0.1 sec, 0.1 MB → 0.1 MB (GPU: 0.2 MB textures): image_3_3468f611-1243-57cb-81c2-c23f05c01e83.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: ← Compressing done in 0.1 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_3468f611-1243-57cb-81c2-c23f05c01e83.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_3468f611-1243-57cb-81c2-c23f05c01e83.glb
+info: → Compressing 2.2 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ← Compressing done in 0.1 sec, 2.2 MB → 0.5 MB (GPU: 10.7 MB textures): image_0_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: → Compressing 0.2 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ← Compressing done in 0.0 sec, 0.2 MB → 0.2 MB (GPU: 2.7 MB textures): image_1_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_ba9c4e3b-4cba-59ac-b353-bcacd2da657e.glb
+info: → Compressing 0.8 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ← Compressing done in 0.0 sec, 0.8 MB → 0.1 MB (GPU: 10.7 MB textures): image_0_d4241499-890e-5285-a0a7-c905a2845a3d.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 2.7 MB textures): image_1_d4241499-890e-5285-a0a7-c905a2845a3d.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.7 MB textures): image_2_d4241499-890e-5285-a0a7-c905a2845a3d.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_d4241499-890e-5285-a0a7-c905a2845a3d.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_d4241499-890e-5285-a0a7-c905a2845a3d.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_d4241499-890e-5285-a0a7-c905a2845a3d.glb
+info: → Compressing 3.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ← Compressing done in 0.1 sec, 3.1 MB → 0.7 MB (GPU: 10.7 MB textures): image_0_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: → Compressing 0.3 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ← Compressing done in 0.0 sec, 0.3 MB → 0.3 MB (GPU: 2.7 MB textures): image_1_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 0.7 MB textures): image_2_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_752031a2-1f7a-5ab3-b2a2-aba8c214a1fd.glb
+info: → Compressing 1.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ← Compressing done in 0.0 sec, 1.1 MB → 0.2 MB (GPU: 10.7 MB textures): image_0_089e9249-3f38-55f8-95d0-3c2aba972e09.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_0_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: → Compressing 0.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ← Compressing done in 0.0 sec, 0.1 MB → 0.1 MB (GPU: 2.7 MB textures): image_1_089e9249-3f38-55f8-95d0-3c2aba972e09.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_1_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.7 MB textures): image_2_089e9249-3f38-55f8-95d0-3c2aba972e09.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_2_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.2 MB textures): image_3_089e9249-3f38-55f8-95d0-3c2aba972e09.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_3_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: → Compressing 0.0 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: ← Compressing done in 0.0 sec, 0.0 MB → 0.0 MB (GPU: 0.0 MB textures): image_4_089e9249-3f38-55f8-95d0-3c2aba972e09.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist\assets\image_4_089e9249-3f38-55f8-95d0-3c2aba972e09.glb
+info: → Loaded compressed file from cache: "mesh_lod_0_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10207_0000000000000000e000000000000000.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11483907664725559645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11483907664725559645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11483907664725559645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11483907664725559645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12041817602870475633_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12041817602870475633_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12041817602870475633_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12041817602870475633_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3891168798430306124_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3891168798430306124_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3891168798430306124_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18377286374811651162_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18377286374811651162_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18377286374811651162_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15597083394006801202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15597083394006801202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15597083394006801202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15597083394006801202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1692347844983589155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1692347844983589155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1692347844983589155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1692347844983589155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_1692347844983589155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11820043859030034658_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11820043859030034658_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11820043859030034658_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11641454096809831459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11641454096809831459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11641454096809831459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11641454096809831459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5639074701732320693_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5639074701732320693_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5639074701732320693_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5639074701732320693_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9898406261158882496_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9898406261158882496_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9898406261158882496_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9898406261158882496_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17767094937008918478_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17767094937008918478_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17767094937008918478_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17767094937008918478_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_17767094937008918478_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10490083737970268365_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10490083737970268365_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10490083737970268365_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10490083737970268365_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1399370667693138132_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1399370667693138132_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1399370667693138132_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1399370667693138132_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1594357186885221729_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1594357186885221729_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1594357186885221729_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1594357186885221729_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_1594357186885221729_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7968732354432553581_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7968732354432553581_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7968732354432553581_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7968732354432553581_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_7968732354432553581_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2234997746999555881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2234997746999555881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2234997746999555881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2234997746999555881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2145743119015138991_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2145743119015138991_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2145743119015138991_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2145743119015138991_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2145743119015138991_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11020503672268237893_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11020503672268237893_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11020503672268237893_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11020503672268237893_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9911921133796086594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9911921133796086594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9911921133796086594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9911921133796086594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_9911921133796086594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16644839467369874151_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16644839467369874151_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16644839467369874151_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16644839467369874151_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1378808955495164766_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1378808955495164766_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1378808955495164766_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1378808955495164766_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_1378808955495164766_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9250726053776702247_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9250726053776702247_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9250726053776702247_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9250726053776702247_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11975573411407632263_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11975573411407632263_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11975573411407632263_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11975573411407632263_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_11975573411407632263_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_840846903425399418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_840846903425399418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_840846903425399418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_840846903425399418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4736552992589447807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4736552992589447807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4736552992589447807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4736552992589447807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10362909386943229501_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10362909386943229501_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10362909386943229501_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10362909386943229501_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_10362909386943229501_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_524791369553862460_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_524791369553862460_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_524791369553862460_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_524791369553862460_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_524791369553862460_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5926549841753016064_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5926549841753016064_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5926549841753016064_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5926549841753016064_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2542713303832428750_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2542713303832428750_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2542713303832428750_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2542713303832428750_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2542713303832428750_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7766225688578010072_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7766225688578010072_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7766225688578010072_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7766225688578010072_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_7766225688578010072_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16654905513760916270_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16654905513760916270_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16654905513760916270_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16654905513760916270_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_16654905513760916270_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7882492546037509842_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7882492546037509842_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7882492546037509842_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7882492546037509842_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1669374172909351459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1669374172909351459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1669374172909351459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1669374172909351459_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6785788739778742149_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6785788739778742149_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6785788739778742149_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6785788739778742149_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_6785788739778742149_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13919684935277106471_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13919684935277106471_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13919684935277106471_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13919684935277106471_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_13919684935277106471_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2525557702634802287_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2525557702634802287_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2525557702634802287_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2525557702634802287_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2525557702634802287_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17687904951435030050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17687904951435030050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17687904951435030050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17687904951435030050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_17687904951435030050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17550199195561059637_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17550199195561059637_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17550199195561059637_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17550199195561059637_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_17550199195561059637_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3222862573081446188_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3222862573081446188_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3222862573081446188_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3222862573081446188_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_3222862573081446188_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11498667171661730534_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11498667171661730534_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11498667171661730534_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11498667171661730534_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_11498667171661730534_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12821570868710891095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12821570868710891095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12821570868710891095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12821570868710891095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_12821570868710891095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8251696748347588479_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8251696748347588479_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8251696748347588479_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8251696748347588479_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_8251696748347588479_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1816704222398718585_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1816704222398718585_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1816704222398718585_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1816704222398718585_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_1816704222398718585_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14309274382566828207_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14309274382566828207_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14309274382566828207_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14309274382566828207_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_14309274382566828207_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11555094000224898301_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11555094000224898301_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11555094000224898301_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11555094000224898301_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_11555094000224898301_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18154189880154096374_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18154189880154096374_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18154189880154096374_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_18154189880154096374_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16988831052922328434_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16988831052922328434_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16988831052922328434_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16988831052922328434_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_16988831052922328434_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12242119568543768947_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12242119568543768947_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12242119568543768947_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12242119568543768947_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4803309794563942829_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4803309794563942829_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4803309794563942829_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4803309794563942829_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_4803309794563942829_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9576638818077740818_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9576638818077740818_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9576638818077740818_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9576638818077740818_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_9576638818077740818_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18229322495790634689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18229322495790634689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18229322495790634689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_18229322495790634689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_18229322495790634689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_600446723850001929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_600446723850001929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_600446723850001929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_600446723850001929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_600446723850001929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4039003796186400116_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4039003796186400116_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4039003796186400116_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4039003796186400116_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_4039003796186400116_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10988522720847961159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10988522720847961159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10988522720847961159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10988522720847961159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_10988522720847961159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17738191158506519192_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17738191158506519192_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17738191158506519192_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17738191158506519192_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_17738191158506519192_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17431392541091490955_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17431392541091490955_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17431392541091490955_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17431392541091490955_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_17431392541091490955_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12233316284573315159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12233316284573315159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12233316284573315159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12233316284573315159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_12233316284573315159_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3231976260845763453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3231976260845763453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3231976260845763453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3231976260845763453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_3231976260845763453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3772530460114025298_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3772530460114025298_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3772530460114025298_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3772530460114025298_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_3772530460114025298_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_864648241902759897_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_864648241902759897_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_864648241902759897_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_864648241902759897_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_864648241902759897_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5960112996842983515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5960112996842983515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5960112996842983515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5960112996842983515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_5960112996842983515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11828638137132643300_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11828638137132643300_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11828638137132643300_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11828638137132643300_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_11828638137132643300_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1159123326722320770_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1159123326722320770_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1159123326722320770_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1159123326722320770_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_1159123326722320770_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4190344918190478604_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4190344918190478604_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4190344918190478604_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4190344918190478604_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_4190344918190478604_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18074606661764581406_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18074606661764581406_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18074606661764581406_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_18074606661764581406_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_18074606661764581406_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6737918174411825921_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6737918174411825921_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6737918174411825921_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6737918174411825921_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3631393600851437597_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3631393600851437597_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3631393600851437597_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3631393600851437597_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17125442103583759541_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17125442103583759541_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17125442103583759541_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17125442103583759541_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12706437780891252753_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12706437780891252753_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12706437780891252753_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12706437780891252753_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13556940891071875414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13556940891071875414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13556940891071875414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13556940891071875414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5145333888411925492_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5145333888411925492_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5145333888411925492_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5145333888411925492_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10729593384783628966_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10729593384783628966_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10729593384783628966_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10729593384783628966_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10629817264865672913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10629817264865672913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10629817264865672913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10629817264865672913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11850076941988116379_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11850076941988116379_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11850076941988116379_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11850076941988116379_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15570373391491150323_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15570373391491150323_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15570373391491150323_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15570373391491150323_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8343149464397605608_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8343149464397605608_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8343149464397605608_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8343149464397605608_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17482957099166283165_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17482957099166283165_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17482957099166283165_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17482957099166283165_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5595501151415693293_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5595501151415693293_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5595501151415693293_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5595501151415693293_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10798393204618116876_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10798393204618116876_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10798393204618116876_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10798393204618116876_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8552702327045509928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8552702327045509928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8552702327045509928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8552702327045509928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5289150057402094913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5289150057402094913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5289150057402094913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5289150057402094913_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16855199908724927515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16855199908724927515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16855199908724927515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16855199908724927515_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13289826914972780005_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13289826914972780005_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13289826914972780005_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13289826914972780005_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5786648806849636071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5786648806849636071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5786648806849636071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5786648806849636071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13765538349460262726_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13765538349460262726_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13765538349460262726_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13765538349460262726_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7322365826263576797_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7322365826263576797_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7322365826263576797_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7322365826263576797_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6277534869151036177_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6277534869151036177_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6277534869151036177_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6277534869151036177_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13186001484205662673_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13186001484205662673_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13186001484205662673_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13186001484205662673_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5088677427430527707_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5088677427430527707_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5088677427430527707_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5088677427430527707_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6746282731834926867_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6746282731834926867_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6746282731834926867_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6746282731834926867_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13563000745181477426_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13563000745181477426_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13563000745181477426_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13563000745181477426_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6541242422820057543_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6541242422820057543_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6541242422820057543_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6541242422820057543_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14194977046963678530_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14194977046963678530_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14194977046963678530_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14194977046963678530_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17016364652156672339_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17016364652156672339_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17016364652156672339_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17016364652156672339_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16543185097097174495_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16543185097097174495_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16543185097097174495_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16543185097097174495_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16163895968852450529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16163895968852450529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16163895968852450529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16163895968852450529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_388833448350087095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_388833448350087095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_388833448350087095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_388833448350087095_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13672434968634969974_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13672434968634969974_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13672434968634969974_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13672434968634969974_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4155286033246672666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4155286033246672666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4155286033246672666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4155286033246672666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3770153091495807297_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3770153091495807297_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3770153091495807297_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3770153091495807297_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4272827772576973031_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4272827772576973031_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4272827772576973031_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4272827772576973031_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10629289813697633100_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10629289813697633100_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10629289813697633100_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10629289813697633100_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13652713312355635052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13652713312355635052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13652713312355635052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13652713312355635052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7621724692407637071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7621724692407637071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7621724692407637071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7621724692407637071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2932827052835956329_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2932827052835956329_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2932827052835956329_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2932827052835956329_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12966231107235350514_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12966231107235350514_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12966231107235350514_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12966231107235350514_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11172581868133928237_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11172581868133928237_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11172581868133928237_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11172581868133928237_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15489098716159661493_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15489098716159661493_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15489098716159661493_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4080339587708933143_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4080339587708933143_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4080339587708933143_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10542558651352166574_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10542558651352166574_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10542558651352166574_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10542558651352166574_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_10542558651352166574_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3691213343395787970_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3691213343395787970_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3691213343395787970_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3691213343395787970_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_3691213343395787970_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4205939389888581477_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4205939389888581477_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4205939389888581477_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13373609819698389371_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13373609819698389371_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13373609819698389371_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12585321978953524644_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12585321978953524644_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12585321978953524644_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8717295200605140326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8717295200605140326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8717295200605140326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8717295200605140326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10943341000379746167_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10943341000379746167_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10943341000379746167_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7245343514263256811_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7245343514263256811_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7245343514263256811_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7245343514263256811_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11080596930400589414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11080596930400589414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11080596930400589414_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16131039879875612844_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16131039879875612844_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16131039879875612844_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14819751709980326433_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14819751709980326433_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14819751709980326433_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1733715175355532886_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1733715175355532886_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1733715175355532886_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1733715175355532886_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8767908600410372162_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8767908600410372162_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8767908600410372162_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5553511773918187689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5553511773918187689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5553511773918187689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5553511773918187689_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18100080695169039732_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18100080695169039732_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18100080695169039732_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_18100080695169039732_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_18100080695169039732_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12515126804229220642_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12515126804229220642_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12515126804229220642_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12515126804229220642_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_12515126804229220642_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16765956404549418146_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16765956404549418146_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16765956404549418146_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16765956404549418146_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_16765956404549418146_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2063441034078736929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2063441034078736929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2063441034078736929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2063441034078736929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2063441034078736929_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7077539904370620474_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7077539904370620474_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7077539904370620474_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7077539904370620474_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_7077539904370620474_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11871525816049470833_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11871525816049470833_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11871525816049470833_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11871525816049470833_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_11871525816049470833_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6781701224646751399_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6781701224646751399_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6781701224646751399_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16645386563629015052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16645386563629015052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16645386563629015052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11153087916211804050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11153087916211804050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11153087916211804050_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7640751224389998271_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7640751224389998271_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7640751224389998271_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3608356328472718734_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3608356328472718734_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3608356328472718734_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16210264184164617042_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16210264184164617042_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16210264184164617042_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3128597870220694134_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3128597870220694134_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3128597870220694134_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18225559091228840045_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18225559091228840045_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18225559091228840045_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11350124265832565877_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11350124265832565877_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11350124265832565877_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_328217961000309684_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_328217961000309684_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_328217961000309684_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6034356898145122404_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6034356898145122404_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6034356898145122404_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10615432183263057900_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10615432183263057900_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10615432183263057900_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3574518175773948218_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3574518175773948218_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3574518175773948218_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10322860210661297718_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10322860210661297718_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10322860210661297718_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17969970025202237326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17969970025202237326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17969970025202237326_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12454392356248797617_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12454392356248797617_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12454392356248797617_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_89519578601327366_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_89519578601327366_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_89519578601327366_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4478660014427358274_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4478660014427358274_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4478660014427358274_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7439817822437749153_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7439817822437749153_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7439817822437749153_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14330607949943531407_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14330607949943531407_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14330607949943531407_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1771906298678857453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1771906298678857453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1771906298678857453_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14760928748194786513_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14760928748194786513_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14760928748194786513_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14760928748194786513_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_711669866397431279_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_711669866397431279_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_711669866397431279_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3769707786877254014_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3769707786877254014_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3769707786877254014_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3769707786877254014_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14539042445504474164_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14539042445504474164_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14539042445504474164_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14539042445504474164_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14514515347103858202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14514515347103858202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14514515347103858202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14514515347103858202_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15804847475221490424_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15804847475221490424_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15804847475221490424_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3364443906304727022_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3364443906304727022_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3364443906304727022_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3364443906304727022_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1075985550893975228_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1075985550893975228_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1075985550893975228_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_1075985550893975228_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18127947417882790268_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18127947417882790268_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18127947417882790268_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_18127947417882790268_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17184543371033251171_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17184543371033251171_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17184543371033251171_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17184543371033251171_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8461758584542178004_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8461758584542178004_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8461758584542178004_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8461758584542178004_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16734117164924846039_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16734117164924846039_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16734117164924846039_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9217893477530247161_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9217893477530247161_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9217893477530247161_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9217893477530247161_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4829524915163113155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4829524915163113155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4829524915163113155_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8942184590439648062_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8942184590439648062_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8942184590439648062_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8942184590439648062_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7576016380025815211_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7576016380025815211_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7576016380025815211_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9976125710791415868_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9976125710791415868_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9976125710791415868_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9976125710791415868_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8600645465411167147_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8600645465411167147_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8600645465411167147_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8325383894226439235_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8325383894226439235_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8325383894226439235_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8325383894226439235_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1002257189839271212_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1002257189839271212_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1002257189839271212_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15645282951772237536_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15645282951772237536_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15645282951772237536_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6515829736929488281_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6515829736929488281_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6515829736929488281_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2880587568193668601_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2880587568193668601_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2880587568193668601_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6557486037255966089_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6557486037255966089_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6557486037255966089_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6994005607309933418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6994005607309933418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6994005607309933418_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3723068796068652232_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3723068796068652232_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3723068796068652232_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2727001813213821104_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2727001813213821104_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2727001813213821104_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12147391506248641490_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12147391506248641490_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12147391506248641490_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15100806424645155532_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15100806424645155532_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15100806424645155532_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15100806424645155532_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14793097244253184430_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14793097244253184430_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14793097244253184430_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14793097244253184430_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17506672035149217804_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17506672035149217804_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17506672035149217804_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6299089763935581795_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6299089763935581795_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6299089763935581795_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6638718357015118748_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6638718357015118748_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6638718357015118748_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14522991712312051129_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14522991712312051129_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_14522991712312051129_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2973372040266090996_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2973372040266090996_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2973372040266090996_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10901166900950752976_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10901166900950752976_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10901166900950752976_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4798378415876247937_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4798378415876247937_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4798378415876247937_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9661080341598740758_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9661080341598740758_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9661080341598740758_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8707417662353513666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8707417662353513666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8707417662353513666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_8707417662353513666_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_14943641039108845006_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_14943641039108845006_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_14943641039108845006_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_14943641039108845006_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2833991380411497394_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2833991380411497394_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2833991380411497394_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2833991380411497394_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17291084117364342052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17291084117364342052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17291084117364342052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_17291084117364342052_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13193018913240790710_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13193018913240790710_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13193018913240790710_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_13193018913240790710_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13732995052520214894_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13732995052520214894_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13732995052520214894_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_13732995052520214894_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2439403338406701928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2439403338406701928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2439403338406701928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2439403338406701928_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7701556706338126121_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7701556706338126121_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7701556706338126121_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_7701556706338126121_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8184359389556941226_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8184359389556941226_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8184359389556941226_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_18081671165450925383_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_18081671165450925383_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_18081671165450925383_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_18081671165450925383_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15193092483905319839_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15193092483905319839_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15193092483905319839_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8137256394219637781_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8137256394219637781_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8137256394219637781_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8137256394219637781_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15654748041114269511_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15654748041114269511_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15654748041114269511_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12481130251432907617_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12481130251432907617_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12481130251432907617_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13168054214224311828_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13168054214224311828_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13168054214224311828_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13168054214224311828_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_13168054214224311828_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10571373075703355807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10571373075703355807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10571373075703355807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10571373075703355807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_10571373075703355807_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1286693231614631071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1286693231614631071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1286693231614631071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1286693231614631071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13052593059838762610_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13052593059838762610_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13052593059838762610_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13052593059838762610_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_2799774112004365216_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_2799774112004365216_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_2799774112004365216_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_2799774112004365216_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_2799774112004365216_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_2799774112004365216_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_6715391377225014654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_6715391377225014654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_6715391377225014654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_6715391377225014654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_6715391377225014654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_6715391377225014654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1535119462554414036_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1535119462554414036_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1535119462554414036_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1535119462554414036_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_1535119462554414036_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3598715894850328654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3598715894850328654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3598715894850328654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3598715894850328654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_3598715894850328654_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1943660381092189123_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1943660381092189123_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1943660381092189123_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1943660381092189123_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8674817572412280854_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8674817572412280854_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8674817572412280854_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8674817572412280854_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16043733425644579386_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16043733425644579386_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16043733425644579386_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16043733425644579386_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_16043733425644579386_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_642260816333345752_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_642260816333345752_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_642260816333345752_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_642260816333345752_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_642260816333345752_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11845909457379434997_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11845909457379434997_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11845909457379434997_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11845909457379434997_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_11845909457379434997_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_11845909457379434997_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15590536777389566539_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15590536777389566539_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15590536777389566539_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15590536777389566539_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_15590536777389566539_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_5_15590536777389566539_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_10101638033802686195_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_10101638033802686195_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_10101638033802686195_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_10101638033802686195_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_10101638033802686195_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13376916564584854465_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13376916564584854465_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13376916564584854465_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_13376916564584854465_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_13376916564584854465_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12006048795068455645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12006048795068455645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12006048795068455645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12006048795068455645_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5447893025012976432_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5447893025012976432_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5447893025012976432_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5447893025012976432_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_248216199319193334_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_248216199319193334_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_248216199319193334_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_248216199319193334_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12233397225791887529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12233397225791887529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12233397225791887529_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_11009350468077070163_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_11009350468077070163_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_11009350468077070163_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_11009350468077070163_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16447290756762680071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16447290756762680071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16447290756762680071_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13337581071267297246_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13337581071267297246_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13337581071267297246_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5124723232721070545_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5124723232721070545_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5124723232721070545_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_13196377561877631881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_13196377561877631881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_13196377561877631881_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_16821722954005597915_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_16821722954005597915_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_16821722954005597915_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_16821722954005597915_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4478916103085881820_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4478916103085881820_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4478916103085881820_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4478916103085881820_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_17845031464775957499_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_17845031464775957499_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_17845031464775957499_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_17845031464775957499_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_4669027285841886265_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_4669027285841886265_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_4669027285841886265_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_4669027285841886265_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_9757175354785709777_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_9757175354785709777_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_9757175354785709777_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_9757175354785709777_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_1539476133765548594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_1539476133765548594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_1539476133765548594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_1539476133765548594_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_7734498213731875925_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_7734498213731875925_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_7734498213731875925_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_7734498213731875925_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_5713462655896616903_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_5713462655896616903_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_5713462655896616903_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_5713462655896616903_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_8333570587316900764_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_8333570587316900764_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_8333570587316900764_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_8333570587316900764_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_856407251807786057_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_856407251807786057_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_856407251807786057_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_856407251807786057_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_856407251807786057_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_15210883668466321816_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_15210883668466321816_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_15210883668466321816_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_15210883668466321816_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_15210883668466321816_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_12122366009688115576_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_12122366009688115576_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_12122366009688115576_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_12122366009688115576_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_0_3665382975354318510_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_1_3665382975354318510_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_2_3665382975354318510_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_3_3665382975354318510_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Loaded compressed file from cache: "mesh_lod_4_3665382975354318510_6efffc50e5c54e24ab3eced23461a655.glb"
+info: → Compressing 21.1 MB: C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/prueba.glb
+Missing optional extension, "NEEDLE_progressive_mesh_settings".
+
+WARN: Could not validate image type for "image/exr"
+
+info: ⇄ Writing to C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/prueba.glb
+info: ← Compressing done in 1.6 sec, 21.1 MB → 15.9 MB (GPU: 0.1 MB textures): prueba.glb at C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/assets/prueba.glb
+info: [Needle Build Pipeline] v2.4.0-alpha.3 — Finished compression "default" of 53 files in 0.4 minutes; total size 47.2 MB → 23.6 MB, total GPU memory: 130.6 MB
+Limit cache size to 1024.00 MB at C:\Users\BENJHI\AppData\Local\Temp\Needle\build-pipeline-cache...
+Current cache size is 92.8 MB
+[needle-buildpipeline] finished successfully
+[needle-buildinfo] - Collect files in C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist
+[needle-buildinfo] - Collect files in assets
+[needle-buildinfo] - Collect files in include
+[needle-buildinfo] - Collect files in include/draco
+[needle-buildinfo] - Collect files in include/ktx2
+[needle-buildinfo] - Collect files in include/needle
+[needle-buildinfo] - Collect files in include/three
+[needle-buildinfo] - Collected 1046 files (38.70 MB). Write info to "C:\Users\BENJHI\3d Needle Engine\Needle\newProject\dist/needle.buildinfo.json"

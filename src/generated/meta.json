@@ -1,0 +1,22 @@
+{
+  "gzip": true,
+  "generator": "Unity 2022.3.41f1, Needle Engine Integration @3.47.2-pre",
+  "developmentBuild": false,
+  "allowHotReload": true,
+  "facebookInstantGames": null,
+  "license": {
+    "id": "",
+    "key": ""
+  },
+  "useRapier": true,
+  "needleEditor": {
+    "enabled": true,
+    "components": true,
+    "materials": true,
+    "sceneCamera": false
+  },
+  "sceneName": "Prueba",
+  "meta": null,
+  "absolutePath": "https://dandelion-third-cougar.glitch.me",
+  "deployOnly": false
+}
